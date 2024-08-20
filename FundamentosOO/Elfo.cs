@@ -7,12 +7,14 @@ using System.Threading.Tasks;
 
 namespace FundamentosOO
 {
-    public class Mago : Personagem
+    internal class Elfo : Personagem
     {
         public override void apresentarSe()
         {
-            Console.WriteLine("Olá, eu sou o Mago " + this.Nome + " tenho " + this.Vida + " pontos de vida.\nInteligência: " + this.Inteligencia + "\nAgilidade: " + this.Agilidade + "\nForça: " + this.Forca + "\nNível atual é: " + this.Nivel);
+            Console.WriteLine("Olá, eu sou o Elfo " + this.Nome + " tenho " + this.Vida + " pontos de vida.\nInteligência: " + this.Inteligencia + "\nAgilidade: " + this.Agilidade + "\nForça: " + this.Forca + "\nNível atual é: " + this.Nivel);
             Console.WriteLine("==================================================");
         }
+
     }
 }
+
